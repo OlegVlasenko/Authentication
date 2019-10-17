@@ -5,13 +5,13 @@ import java.security.cert.X509Certificate;
 
 import javax.net.ssl.HttpsURLConnection;
 
-public class LisUrlCertificate {
+public class ListUrlCertificate {
 
     /**
      * @param args
      */
     public static void main(String[] args) {
-        LisUrlCertificate tester = new LisUrlCertificate();
+        ListUrlCertificate tester = new ListUrlCertificate();
         try {
             tester.testConnectionTo("https://sso.luxoft.com/adfs/services/trust");
         } catch (Exception e) {
