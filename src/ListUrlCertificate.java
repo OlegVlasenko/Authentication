@@ -8,7 +8,7 @@ import javax.net.ssl.HttpsURLConnection;
 public class ListUrlCertificate {
 
     /**
-     * @param args
+     * @param args - command line parameters
      */
     public static void main(String[] args) {
         ListUrlCertificate tester = new ListUrlCertificate();
